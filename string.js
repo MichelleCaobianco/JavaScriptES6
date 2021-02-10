@@ -16,3 +16,9 @@ console.log('Última letra de uma string:', lastChar);
 
 const allWithoutLastChar = 'Teste'.slice(0,-1);
 console.log('Todas as letras menos a última:', allWithoutLastChar);
+
+const secondToEnd = 'Teste'.slice(1);
+
+//retorna N caracteres a partir de posição
+const twoCharsBeforeFirstPos = 'Teste'.substr(0,2);
+console.log('As duas primeiras letras são:',twoCharsBeforeFirstPos);
